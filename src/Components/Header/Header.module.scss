@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        img {
+            width: 97px;
+        }
+    }
+
+    .listBtn {
+        display: flex;
+        
+    }
+
+    .searchBox {
+        background-color: #ccc;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+}

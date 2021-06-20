@@ -1,0 +1,22 @@
+.wrapper {
+    border-radius: 5px;
+    padding: 10px 7px;
+
+    &.default {
+        color: #000;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &.border {
+        border: 1px solid #F02A51;
+    }
+
+    &.bgr {
+        background-color: #F02A51;
+        color: #fff;
+
+    }
+}
